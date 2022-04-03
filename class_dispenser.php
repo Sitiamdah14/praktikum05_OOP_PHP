@@ -6,6 +6,7 @@
     private static $penghasilan = 0;
     public $namaMinuman;
     public $namaPembeli;
+    public $jumlahBeli;
     
     public function __construct($namaPembeli, $namaMinuman,$jumlahBeli){
         $this->jumlahBeli = $jumlahBeli;
